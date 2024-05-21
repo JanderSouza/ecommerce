@@ -1,0 +1,60 @@
+<style>
+        /* Estilo customizado */
+        body {
+            background-color: rgb(red, green, blue)
+            color: white;
+        }
+
+        .navbar {
+            border-bottom: 4px solid darkorange;
+        }
+
+        .nav-link {
+            color: darkorange !important;
+        }
+
+        .jumbotron {
+            background-color: transparent;
+        }
+
+        .banner {
+            border: 4px solid darkorange;
+        }
+
+        .footer {
+            background-color: #343a40;
+        }
+
+        .footer p {
+            color: white;
+        }
+
+        .queijo {
+            font-size: 30px;
+        }
+
+        /* Estilo para o botão */
+        .btn-orange {
+            background-color: darkorange;
+            border: 2px solid darkorange;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .btn-orange:hover {
+            background-color: orange;
+            border-color: orange;
+            color: white;
+        }
+
+        /* Animação de explosão de queijo */
+        @keyframes explode {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.5); }
+            100% { transform: scale(1); }
+        }
+
+        .explode {
+            animation: explode 0.5s ease;
+        }
+    </style>
